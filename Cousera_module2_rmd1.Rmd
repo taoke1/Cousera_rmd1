@@ -3,9 +3,9 @@ title: "Cousera_module2_R markdown Document 1"
 author: "Ke Tao"
 date: "December 11, 2018"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}

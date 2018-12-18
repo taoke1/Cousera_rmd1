@@ -236,8 +236,10 @@ mean(c(1,2,3,4,5))</code></pre>
 </div>
 <div id="insert-tables" class="section level2">
 <h2>Insert Tables</h2>
-<pre class="r"><code>knitr::kable(head(cars))</code></pre>
+<pre class="r"><code>knitr::kable(head(cars),
+             caption = &quot;Top 6 Rows of Cars Dataset&quot;)</code></pre>
 <table>
+<caption>Top 6 Rows of Cars Dataset</caption>
 <thead>
 <tr class="header">
 <th align="right">speed</th>
@@ -271,6 +273,10 @@ mean(c(1,2,3,4,5))</code></pre>
 </tr>
 </tbody>
 </table>
+</div>
+<div id="insert-an-equation" class="section level2">
+<h2>Insert an equation</h2>
+<p><span class="math display">\[ Y = \beta_0 + \beta_1x \]</span></p>
 </div>
 </div>
 
