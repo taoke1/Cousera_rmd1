@@ -3,9 +3,9 @@ title: "Cousera_module2_R markdown Document 1"
 author: "Ke Tao"
 date: "December 11, 2018"
 output:
-  html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -121,3 +121,26 @@ knitr::kable(head(cars),
 ## Insert an equation
 
 $$ Y = \beta_0 + \beta_1x $$
+
+
+## Insert Images
+
+Here is an image inserted
+
+![sunstar](sunstar.png)
+
+
+## Insert an Animated GIF and Video
+
+![sunstar](sunstar.gif)
+
+![sunstar](sunstar.mp4)
+
+## Insert text with some footnotes
+
+Here is footnote reference [^1] and another [^longnote]
+
+Here is an inline footnote ^[Inline notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
+
+[^1]: Here is the footnote.
+[^longnote]: Here is one with multipe blocks
